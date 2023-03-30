@@ -1,0 +1,114 @@
+.about {
+  padding: 3rem 0;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+section h1,
+section h2 {
+  font-size: 1.5rem;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 6px solid #dd0000;
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 60rem;
+  gap: 3rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+}
+
+.text-description {
+  max-width: 60rem;
+  line-height: 2;
+}
+
+.text-description p:first-child:first-letter {
+  float: left;
+  font-size: 4rem;
+  line-height: 3rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.about-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.about-card-grid .card {
+  padding: 5rem;
+}
+
+.about-card-grid h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 40rem;
+  }
+  .about-card-grid .card {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  .team-title {
+    text-align: center;
+  }
+
+  section:last-child {
+    margin-bottom: 0;
+  }
+}

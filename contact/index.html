@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Need to reach us? Feel free to send us a message. We'd like to hear from you."
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/logo-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/contact-form.style.css" />
+    <title>Contact | Nasi Lemak Madu</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="main-nav">
+          <div class="main-nav-left">
+            <a href="../" class="header-logo">
+              <img src="../assets/images/logo.png" alt="" />
+            </a>
+            <ul class="main-menu">
+              <li><a href="../menu/">Menu</a></li>
+              <li><a href="../about/">About</a></li>
+              <li><a href="" class="active-page">Contact Us</a></li>
+              <li>
+                <a
+                  href="https://wa.me/c/601111829137"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Order Now</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://goo.gl/maps/LNe19nNpwgPhzAuLA"
+                  target="_blank"
+                  class="store-locator"
+                >
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Find a store</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-nav-right">
+            <a
+              href="https://goo.gl/maps/LNe19nNpwgPhzAuLA"
+              target="_blank"
+              class="store-locator"
+            >
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Find a store</p>
+            </a>
+            <i class="fas fa-bars menu-btn"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="contact-form">
+          <div class="form-title">
+            <h1>Need to Reach Us?</h1>
+            <h3>We'd like to hear from you</h3>
+          </div>
+          <form action="process.php" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name *"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email *"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="mobile">Mobile Number</label>
+              <input
+                type="tel"
+                name="mobile"
+                id="mobile"
+                placeholder="Mobile Number"
+              />
+            </div>
+            <div class="form-control">
+              <label for="subject" class="input-focus">Subject</label>
+              <select name="subject" id="subject">
+                <option value="General Inquiry" selected>
+                  General Inquiry
+                </option>
+                <option value="Catering">Catering</option>
+                <option value="Franchising">Franchising</option>
+                <option value="Suppliers">Suppliers</option>
+                <option value="OEM">OEM</option>
+                <option value="Investor Relations">Investor Relations</option>
+                <option value="Press">Press</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <label for="message" class="input-focus">Message</label>
+              <textarea name="message" id="message" rows="5"></textarea>
+            </div>
+            <small>* Required</small>
+            <input name="submit" type="submit" value="Submit" class="btn" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-grid-item">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="../about/">Company</a></li>
+              <li>
+                <a
+                  href="https://candidates.myfuturejobs.gov.my/search-jobs?jobId=31c326fda641426a95647f10a68441f2"
+                  target="_blank"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-grid-item">
+            <h3>Our Food</h3>
+            <ul>
+              <li><a href="../menu/">Menu</a></li>
+
+              <li><a href="../contact/">Catering</a></li>
+              <li>
+                <a
+                  href="https://foodpanda.page.link/ptAzMaHVQ7ZYYSy5A"
+                  target="_blank"
+                  >Delivery</a
+                >
+              </li>
+              <li><a href="../contact/">Feedback</a></li>
+            </ul>
+          </div>
+          <div class="footer-grid-item">
+            <h3>For Business Partners</h3>
+            <ul>
+              <li><a href="../contact/">Franchising</a></li>
+              <li><a href="../contact/">Suppliers</a></li>
+              <li><a href="../contact/">OEM</a></li>
+              <li><a href="../contact/">Press</a></li>
+            </ul>
+          </div>
+          <div class="footer-grid-item" id="order-now">
+            <h3>Order Now</h3>
+            <ul>
+              <li>
+                <a href="https://goo.gl/maps/LNe19nNpwgPhzAuLA" target="_blank"
+                  >Find a Store</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://foodpanda.page.link/ptAzMaHVQ7ZYYSy5A"
+                  target="_blank"
+                  >Food Panda</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="community">
+          <div class="social">
+            <a
+              href="https://foodpanda.page.link/ptAzMaHVQ7ZYYSy5A"
+              target="_blank"
+              ><img src="../assets/images/panda.png" alt=""
+            /></a>
+            <a href="https://www.instagram.com/nasilemakmadu" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com/NasiLemakMadu" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/nasilemakmadu20" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://wa.me/c/601111829137" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="https://t.me/NasiLemakMadu" target="_blank"
+              ><i class="fab fa-telegram-plane"></i
+            ></a>
+            <a href="mailto:contact@nasilemakmadu.com" target="_blank"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span class="copyright"
+            >Copyright &copy; 2020 Nasi Lemak Madu Sdn Bhd. All rights
+            reserved.</span
+          >
+          <div class="t-c">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+          </div>
+          <div class="country">
+            <img src="../assets/images/flag-30.png" alt="" />
+            <span>Malaysia</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

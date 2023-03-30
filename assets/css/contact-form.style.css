@@ -1,0 +1,98 @@
+/* Contact Form */
+.contact-form {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.form-title h3 {
+  opacity: 0.85;
+  margin-top: 1rem;
+}
+
+.contact-form form {
+  width: 90%;
+  max-width: 40rem;
+}
+
+.form-control {
+  margin-top: 2rem;
+}
+
+.form-control:first-child {
+  margin-top: 0;
+}
+
+.form-control label {
+  display: none;
+}
+
+.form-control label[for='subject'],
+.form-control label[for='message'] {
+  display: inline;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: relative;
+  top: 0.5rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  background-color: #fff;
+}
+
+.form-control ::placeholder {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  width: 100%;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #888;
+}
+
+.form-control select,
+.form-control textarea {
+  border: 1px solid #888;
+  /* border-radius: 1rem; */
+}
+
+.form-control input:focus {
+  border: none;
+  border-bottom: 2px solid #212529;
+  outline: none;
+}
+
+.form-control select:focus,
+.form-control textarea:focus {
+  border: 2px solid #212529;
+  outline: none;
+}
+
+.form-control select {
+  background-color: #fff;
+}
+
+form small {
+  margin-top: 0.5rem;
+  display: block;
+  font-weight: bold;
+}
+
+form input.btn {
+  margin-top: 2rem;
+}
